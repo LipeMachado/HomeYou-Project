@@ -8,7 +8,7 @@ import {
 import Aos from 'aos';
 import { useEffect } from 'react';
 
-import DesignImage from '../../Assets/Images/DesignImage.png'
+import DesignImage from '../../../../Assets/Images/DesignImage.png'
 import { Link } from 'react-router-dom'
 
 export function DesignSection() {

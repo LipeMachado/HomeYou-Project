@@ -1,4 +1,4 @@
-import { NavBarSection } from "../../Sections/NavBarSection";
+import { NavBarSection } from "../../SectionsGlobals/NavBarSection";
 import { SectionsContainers } from "../../Style/styledGlobal";
 import { NavBarSectionContainer } from "../HomePage/style";
 

@@ -6,9 +6,9 @@ import {
 import Aos from 'aos';
 import { useEffect } from 'react';
 
-import GalleryImage1 from '../../Assets/Images/GalleryImage1.png'
-import GalleryImage2 from '../../Assets/Images/GalleryImage2.png'
-import GalleryImage3 from '../../Assets/Images/GalleryImage3.png'
+import GalleryImage1 from '../../../../Assets/Images/GalleryImage1.png'
+import GalleryImage2 from '../../../../Assets/Images/GalleryImage2.png'
+import GalleryImage3 from '../../../../Assets/Images/GalleryImage3.png'
 
 export function GallerySection() {
     useEffect(() => {

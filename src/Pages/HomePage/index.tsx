@@ -1,10 +1,11 @@
-import { ContactSection } from '../../Sections/ContactSection'
-import { DesignSection } from '../../Sections/DesignSection'
-import { FooterSection } from '../../Sections/FooterSection'
-import { GallerySection } from '../../Sections/GallerySection'
-import { HeroSection } from '../../Sections/HeroSection'
-import { NavBarSection } from '../../Sections/NavBarSection'
+import { ContactSection } from './SectionsHomePage/ContactSection'
+import { FooterSection } from '../../SectionsGlobals/FooterSection'
+import { HeroSection } from '../../SectionsGlobals/HeroSection'
+import { NavBarSection } from '../../SectionsGlobals/NavBarSection'
 import { SectionsContainers } from '../../Style/styledGlobal'
+import { DesignSection } from './SectionsHomePage/DesignSection'
+import { GallerySection } from './SectionsHomePage/GallerySection'
+
 import {
     NavBarSectionContainer,
     HeroSectionContainer,
