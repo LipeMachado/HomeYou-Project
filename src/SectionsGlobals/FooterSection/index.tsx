@@ -3,45 +3,20 @@ import {
     FooterContainer,
     FooterLogoDiv,
     FooterProductDiv,
-    FooterInfosDiv,
-    FooterSocialMediasDiv,
+    FooterInfosDiv
 } from './style'
 
 export function FooterSection() {
     const Products = [
         {
-            "itemProducts": "Mobilia"
-        },
-        {
-            "itemProducts": "Segurança"
-        },
-        {
-            "itemProducts": "Design Interior"
+            "itemProducts": "Galeria"
         }
     ]
 
     const Infos = [
         {
-            "itemInfos": "Contrato"
+            "itemInfos": "Contato"
         },
-        {
-            "itemInfos": "Sobre Nós"
-        },
-        {
-            "itemInfos": "Termos e Condições"
-        }
-    ]
-
-    const SocialMedias = [
-        {
-            "itemSocialMedias": "Pinterest"
-        },
-        {
-            "itemSocialMedias": "Facebook"
-        },
-        {
-            "itemSocialMedias": "Instagram"
-        }
     ]
 
     return (
@@ -55,7 +30,7 @@ export function FooterSection() {
                 <FooterProductDiv>
                     <ul>
                         <li>
-                            <h4>Products</h4>
+                            <h4>Produtos</h4>
                         </li>
                         {Products.map((item) => {
                             return (
@@ -80,20 +55,6 @@ export function FooterSection() {
                         })}
                     </ul>
                 </FooterInfosDiv>
-                <FooterSocialMediasDiv>
-                    <ul>
-                        <li>
-                            <h4>Redes Sociais</h4>
-                        </li>
-                        {SocialMedias.map((item) => {
-                            return (
-                                <>
-                                    <li><Link to="/">{item.itemSocialMedias}</Link></li>
-                                </>
-                            )
-                        })}
-                    </ul>
-                </FooterSocialMediasDiv>
             </FooterContainer>
         </>
     )

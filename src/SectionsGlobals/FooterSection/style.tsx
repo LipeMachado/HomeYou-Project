@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
     display: flex;
     gap: 100px;
-    padding: 40px;
+    padding: 30px;
 
     @media only screen and (max-width: 850px) {
         display: flex;
@@ -58,5 +58,3 @@ export const FooterLogoDiv = styled.div`
 export const FooterProductDiv = styled.div``;
 
 export const FooterInfosDiv = styled.div``;
-
-export const FooterSocialMediasDiv = styled.div``;

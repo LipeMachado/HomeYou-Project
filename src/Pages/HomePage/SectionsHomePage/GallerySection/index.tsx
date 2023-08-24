@@ -6,9 +6,9 @@ import {
 import Aos from 'aos';
 import { useEffect } from 'react';
 
-import GalleryImage1 from '../../../../Assets/Images/GalleryImage1.png'
-import GalleryImage2 from '../../../../Assets/Images/GalleryImage2.png'
-import GalleryImage3 from '../../../../Assets/Images/GalleryImage3.png'
+import GalleryImage1V from '../../../../Assets/Images/GalleryImage1V.png'
+import GalleryImage2V from '../../../../Assets/Images/GalleryImage2V.png'
+import GalleryImage3V from '../../../../Assets/Images/GalleryImage3V.png'
 
 export function GallerySection() {
     useEffect(() => {
@@ -28,9 +28,9 @@ export function GallerySection() {
                     </p>
                 </GalleryContainerTitleParagraph>
                 <GalleryImagesContainer>
-                    <img src={GalleryImage1} data-aos="zoom-in-up" />
-                    <img src={GalleryImage2} data-aos="zoom-in-up" />
-                    <img src={GalleryImage3} data-aos="zoom-in-up" />
+                    <img src={GalleryImage1V} data-aos="zoom-in-up" />
+                    <img src={GalleryImage2V} data-aos="zoom-in-up" />
+                    <img src={GalleryImage3V} data-aos="zoom-in-up" />
                 </GalleryImagesContainer>
             </GalleryContainer>
         </>
