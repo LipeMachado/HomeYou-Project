@@ -4,6 +4,11 @@ export const GalleryContainerSectionDiv = styled.div`
     height: 86vh;
     overflow-y: scroll;
     background-color: #F9F9F9;
+    padding: 2rem 0 2rem 0;
+
+    @media only screen and (max-width: 76.8rem){
+        padding: 2rem 1rem 2rem 1rem;
+    }
 `;
 
 export const GalleryContainerBoxSectionDiv = styled.div`
