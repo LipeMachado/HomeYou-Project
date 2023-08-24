@@ -9,13 +9,15 @@ import {
 export function FooterSection() {
     const Products = [
         {
-            "itemProducts": "Galeria"
-        }
+            "itemProducts": "Galeria",
+            "itemLink": "/galeria",
+        },
     ]
 
     const Infos = [
         {
-            "itemInfos": "Contato"
+            "itemInfos": "Contato",
+            "itemLink": "/contato",
         },
     ]
 
@@ -35,7 +37,7 @@ export function FooterSection() {
                         {Products.map((item) => {
                             return (
                                 <>
-                                    <li><Link to="/">{item.itemProducts}</Link></li>
+                                    <li><Link to={item.itemLink}>{item.itemProducts}</Link></li>
                                 </>
                             )
                         })}
@@ -49,7 +51,7 @@ export function FooterSection() {
                         {Infos.map((item) => {
                             return (
                                 <>
-                                    <li><Link to="/">{item.itemInfos}</Link></li>
+                                    <li><Link to={item.itemLink}>{item.itemInfos}</Link></li>
                                 </>
                             )
                         })}

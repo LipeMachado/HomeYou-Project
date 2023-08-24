@@ -30,7 +30,7 @@ export function DesignSection() {
                         <p>Móveis apenas essenciais e com design moderno, além de revestimentos bonitos e em cores neutras para manter a casa sempre com um estilo clean e suave.</p>
                     </DesignTextContainer>
                     <DesignLinkContainer data-aos="zoom-in-down">
-                        <Link to="/">Quero saber mais sobre os designs</Link>
+                        <Link to="/galeria">Quero ver mais designs</Link>
                     </DesignLinkContainer>
                 </DesignContentContainer>
             </DesignContainer>

@@ -29,6 +29,15 @@ export default createGlobalStyle`
         font-family: 'MontserratMedium';
     }
 
+    a {
+        text-decoration: none;
+        color: rgba(39, 39, 39, 1);
+
+        &:hover {
+            color: #7b7b7b;
+        }
+    }
+
     ::-webkit-scrollbar {
         width: 5px;
     }

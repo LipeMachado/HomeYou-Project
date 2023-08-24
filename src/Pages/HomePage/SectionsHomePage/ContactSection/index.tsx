@@ -22,7 +22,7 @@ export function ContactSection() {
                     <p data-aos="zoom-in">Interessado em entrar em contato com um de nossos profissionais?</p>
                 </ContactTitleParagraphDiv>
                 <ContactButtonDiv data-aos="zoom-in-up">
-                    <Link to="/">Entre em contato</Link>
+                    <Link to="/contato">Entre em contato</Link>
                 </ContactButtonDiv>
             </ContactSectionDiv>
         </>
