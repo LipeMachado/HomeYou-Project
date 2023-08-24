@@ -9,7 +9,16 @@ export const GalleryContainerBoxSectionDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
+    padding: 0 1rem 0 1rem;
+
+    @media only screen and (max-width: 76.8rem){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
 
     .gallery-img {
         overflow: hidden;
@@ -37,6 +46,10 @@ export const GalleryContainerBoxSectionDiv = styled.div`
         height: 100%;
         object-position: center;
         object-fit: cover;
+
+        @media only screen and (max-width: 76.8rem){
+            width: 100%;
+        }
     }
 `;
 
@@ -47,6 +60,12 @@ export const GalleryLeftDiv = styled.div`
         'A B'
         'A C'
     ;
+
+    @media only screen and (max-width: 76.8rem){
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
 `;
 
 export const GalleryMiddleDiv = styled.div`
@@ -60,4 +79,10 @@ export const GalleryRightDiv = styled.div`
         'B A'
         'C A'
     ;
+
+    @media only screen and (max-width: 76.8rem){
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
 `;
