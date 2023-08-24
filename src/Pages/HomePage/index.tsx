@@ -1,6 +1,6 @@
 import { ContactSection } from './SectionsHomePage/ContactSection'
 import { FooterSection } from '../../SectionsGlobals/FooterSection'
-import { HeroSection } from '../../SectionsGlobals/HeroSection'
+import { HeroSection } from './SectionsHomePage/HeroSection'
 import { NavBarSection } from '../../SectionsGlobals/NavBarSection'
 import { SectionsContainers } from '../../Style/styledGlobal'
 import { DesignSection } from './SectionsHomePage/DesignSection'

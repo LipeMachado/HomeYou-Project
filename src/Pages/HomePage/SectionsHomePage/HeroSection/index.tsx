@@ -9,7 +9,7 @@ import {
 import Aos from 'aos';
 import { useEffect } from 'react';
 
-import HeroImage from '../../Assets/Images/HeroImage.png'
+import HeroImage from '../../../../Assets/Images/HeroImage.png'
 
 export function HeroSection() {
     useEffect(() => {
