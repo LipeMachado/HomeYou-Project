@@ -27,7 +27,7 @@ export function HeroSection() {
                     <p data-aos="fade-right">Encontre uma variedade de propriedades que combinam com você. Esqueça todas as dificuldades em encontrar uma residência</p>
                     <HeroButtonsContainer>
                         <Link to="/contato"><HeroButtonContact data-aos="zoom-in">Entrar em contato</HeroButtonContact></Link>
-                        <HeroButtonAbout data-aos="zoom-in">Mais sobre nós</HeroButtonAbout>
+                        <Link to="/sobrenos"><HeroButtonAbout data-aos="zoom-in">Mais sobre nós</HeroButtonAbout></Link>
                     </HeroButtonsContainer>
                 </HeroContentContainer>
                 <HeroImageContainer data-aos="fade-left">
