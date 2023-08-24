@@ -40,6 +40,8 @@ export const GalleryContainerTitleParagraph = styled.div`
     }
 `;
 
+import GalleryImage1 from '../../Assets/Images/GalleryImage1.png'
+
 export const GalleryImagesContainer = styled.div`
     display: grid;
     justify-content: center;
@@ -50,13 +52,15 @@ export const GalleryImagesContainer = styled.div`
     img {
         width: 350px;
         height: 450px;
+        object-position: center;
+        object-fit: cover;
 
         @media only screen and (max-width: 650px){
             width: 300px;
             height: 400px;
         }
     }
-
+    
     @media only screen and (max-width: 1180px){
         grid-template-columns: 1fr 1fr;
     
