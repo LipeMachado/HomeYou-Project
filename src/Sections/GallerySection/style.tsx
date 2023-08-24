@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const GaleryContainer = styled.div`
+export const GalleryContainer = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,7 +14,7 @@ export const GaleryContainer = styled.div`
     }
 `;
 
-export const GaleryContainerTitleParagraph = styled.div`
+export const GalleryContainerTitleParagraph = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -40,7 +40,7 @@ export const GaleryContainerTitleParagraph = styled.div`
     }
 `;
 
-export const GaleryImagesContainer = styled.div`
+export const GalleryImagesContainer = styled.div`
     display: grid;
     justify-content: center;
     align-items: center;

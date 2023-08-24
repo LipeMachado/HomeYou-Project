@@ -33,10 +33,10 @@ export function NavBarSection() {
                         <Link to="/" data-aos="zoom-in">
                             <li>Inicio</li>
                         </Link>
-                        <Link to="/" data-aos="zoom-in">
+                        <Link to="/galeria" data-aos="zoom-in">
                             <li>Galeria</li>
                         </Link>
-                        <Link to="/" data-aos="zoom-in">
+                        <Link to="/contato" data-aos="zoom-in">
                             <li>Contato</li>
                         </Link>
                         <NavBarLinksSVGContainer>

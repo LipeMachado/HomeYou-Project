@@ -1,15 +1,15 @@
 import { ContactSection } from '../../Sections/ContactSection'
 import { DesignSection } from '../../Sections/DesignSection'
 import { FooterSection } from '../../Sections/FooterSection'
-import { GalerySection } from '../../Sections/GalerySection'
+import { GallerySection } from '../../Sections/GallerySection'
 import { HeroSection } from '../../Sections/HeroSection'
 import { NavBarSection } from '../../Sections/NavBarSection'
+import { SectionsContainers } from '../../Style/styledGlobal'
 import {
-    SectionsContainers,
     NavBarSectionContainer,
     HeroSectionContainer,
     DesignSectionContainer,
-    GalerySectionContainer,
+    GallerySectionContainer,
     ContactSectionContainer,
     FooterSectionContainer
 } from './style'
@@ -35,11 +35,11 @@ export function HomePage() {
                 </SectionsContainers>
             </DesignSectionContainer>
 
-            <GalerySectionContainer>
+            <GallerySectionContainer>
                 <SectionsContainers>
-                    <GalerySection />
+                    <GallerySection />
                 </SectionsContainers>
-            </GalerySectionContainer>
+            </GallerySectionContainer>
 
             <ContactSectionContainer>
                 <SectionsContainers>

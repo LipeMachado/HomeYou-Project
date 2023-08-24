@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-export const SectionsContainers = styled.div`
-    max-width: 1280px;
-    margin: 0px auto;
-`;
-
 export const NavBarSectionContainer = styled.div`
     background-color: #ffffff;
 `;
@@ -17,7 +12,7 @@ export const DesignSectionContainer = styled.div`
     background-color: #ffffff;
 `;
 
-export const GalerySectionContainer = styled.div`
+export const GallerySectionContainer = styled.div`
     background-color: #F9F9F9;
 `;
 

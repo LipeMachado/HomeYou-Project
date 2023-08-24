@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import MontserratMedium from '../Assets/Fonts/MontserratMedium.ttf'
 import MontserratSemiBold from '../Assets/Fonts/MontserratSemiBold.ttf'
 
@@ -41,4 +41,9 @@ export default createGlobalStyle`
         background-color: #767676;
         border-radius: 8px;
     }
+`;
+
+export const SectionsContainers = styled.div`
+    max-width: 1280px;
+    margin: 0px auto;
 `;
