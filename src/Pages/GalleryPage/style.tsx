@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const GalleryContainerSectionDiv = styled.div`
     height: 86vh;
     overflow-y: scroll;
+    background-color: #F9F9F9;
 `;
 
 export const GalleryContainerBoxSectionDiv = styled.div`
