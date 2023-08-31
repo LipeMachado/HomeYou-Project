@@ -35,6 +35,9 @@ export function NavBarSection() {
                         <Link to="/" data-aos="zoom-in">
                             <li>Inicio</li>
                         </Link>
+                        <Link to="/sobrenos" data-aos="zoom-in">
+                            <li>Sobre Nós</li>
+                        </Link>
                         <Link to="/galeria" data-aos="zoom-in">
                             <li>Galeria</li>
                         </Link>

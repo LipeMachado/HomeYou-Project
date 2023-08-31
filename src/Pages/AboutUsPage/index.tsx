@@ -5,7 +5,10 @@ import { FooterSectionContainer, NavBarSectionContainer } from "../HomePage/styl
 
 import {
     AboutUsContainerSectionDiv,
-    AboutUsTextsSectionDiv
+    AboutUsTextsSectionDiv,
+    AboutUsTitleDiv,
+    AboutUsParagraphDiv,
+    AboutUsFilterDiv
 } from './style'
 
 export function AboutUsPage() {
@@ -18,22 +21,20 @@ export function AboutUsPage() {
             </NavBarSectionContainer>
 
             <AboutUsContainerSectionDiv>
-                <AboutUsTextsSectionDiv>
-                    <div>
-                        <h3>Bem-Vindo à Home You: Onde Lares Se Tornam Arte Interior</h3>
-                    </div>
-                    <div>
-                        <p>A Home You vai além do design de interiores, criando histórias
-                            encantadoras através de espaços cativantes. Mais do que designers,
-                            somos contadores de histórias que utilizam cores, texturas e formas
-                            como palavras para dar vida aos ambientes. Nossos projetos oferecem
-                            um lugar onde cada detalhe de design possui uma história única,
-                            onde a escolha dos móveis expressa personalidade e a funcionalidade
-                            se une à elegância de maneira harmoniosa. Bem-vindo à Home You,
-                            onde transformamos esses sonhos em realidade.
-                        </p>
-                    </div>
-                </AboutUsTextsSectionDiv>
+                <AboutUsFilterDiv>
+                    <AboutUsTextsSectionDiv>
+
+                        <AboutUsTitleDiv>
+                            <h3>Bem-Vindo a Home You <br />Onde Lares Se Tornam Arte Interior</h3>
+                        </AboutUsTitleDiv>
+                        <AboutUsParagraphDiv>
+                            <p>A Home You vai além do design, contando histórias através de espaços cativantes,
+                                usando elementos visuais para criar ambientes significativos e transformar sonhos
+                                em realidade. Somos contadores de histórias visuais que unem design e narrativa.
+                            </p>
+                        </AboutUsParagraphDiv>
+                    </AboutUsTextsSectionDiv>
+                </AboutUsFilterDiv>
             </AboutUsContainerSectionDiv>
 
             <FooterSectionContainer>
