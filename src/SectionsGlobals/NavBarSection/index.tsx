@@ -46,13 +46,10 @@ export function NavBarSection() {
                         </Link>
                         <NavBarLinksSVGContainer>
                             <Link to="/" data-aos="zoom-in">
-                                <li><User size={20} weight="bold" /></li>
-                            </Link>
-                            <Link to="/" data-aos="zoom-in">
-                                <li><Heart size={20} weight="bold" /></li>
-                            </Link>
-                            <Link to="/" data-aos="zoom-in">
                                 <li><MagnifyingGlass size={20} weight="bold" /></li>
+                            </Link>
+                            <Link to="/" data-aos="zoom-in">
+                                <li><User size={20} weight="bold" /></li>
                             </Link>
                         </NavBarLinksSVGContainer>
                     </ul>

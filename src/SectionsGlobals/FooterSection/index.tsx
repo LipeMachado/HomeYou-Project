@@ -19,6 +19,10 @@ export function FooterSection() {
             "itemInfos": "Contato",
             "itemLink": "/contato",
         },
+        {
+            "itemInfos": "Sobre Nós",
+            "itemLink": "/sobrenos"
+        }
     ]
 
     return (
