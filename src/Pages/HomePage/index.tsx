@@ -14,10 +14,13 @@ import {
     ContactSectionContainer,
     FooterSectionContainer
 } from './style'
+import { ButtonScrollTop } from '../../Components/ButtonScrollTop'
 
 export function HomePage() {
     return (
         <>
+            <ButtonScrollTop />
+
             <NavBarSectionContainer>
                 <SectionsContainers>
                     <NavBarSection />
