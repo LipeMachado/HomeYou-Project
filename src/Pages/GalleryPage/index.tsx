@@ -16,8 +16,16 @@ import GalleryImage3V from '../../Assets/Images/GalleryImage3V.png'
 import GalleryImage1H from '../../Assets/Images/GalleryImage1H.jpg'
 import GalleryImage2H from '../../Assets/Images/GalleryImage2H.jpg'
 import GalleryImage3H from '../../Assets/Images/GalleryImage3H.jpg'
+import { useEffect } from "react";
+import Aos from "aos";
 
 export function GalleryPage() {
+    useEffect(() => {
+        Aos.init({
+            duration: 1000,
+        });
+    })
+
     return (
         <>
             <NavBarSectionContainer>
@@ -29,13 +37,13 @@ export function GalleryPage() {
             <GalleryContainerSectionDiv>
                 <GalleryContainerBoxSectionDiv>
                     <GalleryLeftDiv>
-                        <div className="gallery-img vertical">
+                        <div className="gallery-img vertical" data-aos="zoom-in" data-aos-delay="500">
                             <img src={GalleryImage1V} alt="" />
                         </div>
-                        <div className="gallery-img small">
+                        <div className="gallery-img small" data-aos="zoom-in" data-aos-delay="100">
                             <img src={GalleryImage1H} alt="" />
                         </div>
-                        <div className="gallery-img small">
+                        <div className="gallery-img small" data-aos="zoom-in" data-aos-delay="200">
                             <img src={GalleryImage2H} alt="" />
                         </div>
                     </GalleryLeftDiv>
