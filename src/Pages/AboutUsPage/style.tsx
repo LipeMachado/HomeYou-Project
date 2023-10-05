@@ -14,11 +14,6 @@ export const AboutUsContainerSectionDiv = styled.div`
     }
 `;
 
-export const AboutUsFilterDiv = styled.div`
-    backdrop-filter: brightness(30%);
-    height: 100%;
-`;
-
 export const AboutUsTextsSectionDiv = styled.div`
     display: flex;
     flex-direction: column;
